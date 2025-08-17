@@ -1,5 +1,4 @@
 from pyngrok import ngrok
-!streamlit run food_delivery_streamlit_app.py &
 
 # Ambil URL
 public_url = ngrok.connect(port='8501')
